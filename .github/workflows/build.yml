@@ -50,7 +50,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: winlator-arm64-v8-debug
-        path: ./app/build/outputs/apk/debug/app-debug.apk
+        path: ./library/build/outputs/aar/*.aar
     
 
     # - name: Update Nightly Release
