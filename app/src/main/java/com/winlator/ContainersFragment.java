@@ -177,5 +177,6 @@ public class ContainersFragment extends Fragment {
             });
 
             listItemMenu.show();
+        }
     }
 }
